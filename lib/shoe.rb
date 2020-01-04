@@ -2,7 +2,7 @@
 
 
 class Shoe 
-  def initialize(name)
+  def initialize(name="Nike")
     @name = name
   end
   
