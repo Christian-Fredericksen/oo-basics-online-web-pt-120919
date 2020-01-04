@@ -6,8 +6,8 @@ class Shoe
     @name = name
   end
   
-  def brand=(brand)
-    @brand = brand
+  def brand
+    puts "#{brand}"
   end
   def brand
     @brand
