@@ -1,4 +1,5 @@
 # Make your shoe class here!
+require "pry"
 
 
 class Shoe 
@@ -7,7 +8,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
-  
+  binding.pry
   # def brand
   #   @brand 
   # end
@@ -40,6 +41,7 @@ class Shoe
   def cobble
     puts "Your shoe is as good as new!"
   end
+  
   
   
 end
