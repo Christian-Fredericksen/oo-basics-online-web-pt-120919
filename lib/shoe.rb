@@ -8,7 +8,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
-  binding.pry
+ # binding.pry
   # def brand
   #   @brand 
   # end
